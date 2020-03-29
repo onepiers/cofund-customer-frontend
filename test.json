@@ -1,0 +1,8 @@
+{
+    "token" : "test",
+    "subject" : "ChIJm83P5ZmGsUcR6Xlf5TivOTg",
+    "authorities" : [ 
+        "COMPANY"
+    ],
+    "_class" : "com.coyoapp.hackathon.service.auth.impl.token.OneTimeAuthToken"
+}

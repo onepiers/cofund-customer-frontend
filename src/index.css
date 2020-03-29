@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'DejaVu Sans', 'Verdana', 'Helvetica Neue', 'Roboto', 'Ubuntu', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: 'Montserrat', 'DejaVu Sans', 'Verdana', 'Helvetica Neue', 'Roboto', 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* style the google maps popup */
+
+.gm-style .gm-style-iw > button {
+  top: 6px !important;
+  right: 6px !important;
+}
+
+.gm-style .gm-style-iw button > img {
+  width: 16px !important;
+  height: 16px !important;
+}
+
+.gm-style .gm-style-iw,
+.poi-info-window div,
+.poi-info-window a {
+  font-family: 'Montserrat', 'DejaVu Sans', 'Verdana', 'Helvetica Neue', 'Roboto', 'Ubuntu', sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.gm-style .gm-style-iw b,
+.poi-info-window .title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.poi-info-window .view-link {
+  display: none;
+}
+
+.gm-style .gm-style-iw b {
+  margin-bottom: 2px;
+  display: inline-block;
+}
