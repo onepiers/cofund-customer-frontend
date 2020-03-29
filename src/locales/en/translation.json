@@ -1,2 +1,9 @@
 {
+    "signup": {
+        "button": "Sign up",
+        "slug": {
+            "label": "Short-handle",
+            "description": "Use this field to create a short-handle for your business, using only lowercase letters and hyphens. You can use it later to share a personal link with customers, friends and family to actively advertise for donations."
+        }
+    }
 }
