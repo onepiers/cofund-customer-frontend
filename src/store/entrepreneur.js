@@ -6,7 +6,7 @@ export function entrepreneur(store) {
     store.on('entrepreneur/load', (state, code) => {
         getEntrepreneur(state.token).then((data) => {
             store.dispatch('entrepreneur/loaded', data)
-            store.dispatch('entrepreneur/getAmount', data.googlePlaceId)
+            store.dispatch('entrepreneur/getAmount', data.id)
         });
     })
 
