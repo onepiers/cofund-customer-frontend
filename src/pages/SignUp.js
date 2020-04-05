@@ -65,7 +65,7 @@ export default function SignUp() {
         } else if (!entrepreneur) {
             dispatch('entrepreneur/load')
         } else if (entrepreneur.email) {
-            history.push('/showmethemoney')
+            history.push('/meinespenden')
         } else {
             validateSlug(entrepreneur.slug)
         }

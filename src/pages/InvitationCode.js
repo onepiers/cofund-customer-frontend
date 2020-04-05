@@ -50,7 +50,7 @@ export default function InvitationCode() {
 
     const [inviteCode, setInviteCode] = useState(null);
     const { dispatch, token } = useStoreon('token')
-    
+
     function login(event) {
         event.preventDefault();
         dispatch('auth/login', inviteCode);
@@ -58,7 +58,7 @@ export default function InvitationCode() {
 
     useEffect(() => {
         if (token) {
-            history.push('/showmethemoney')
+            history.push('/meinespenden')
         }
     }, [token, history])
 

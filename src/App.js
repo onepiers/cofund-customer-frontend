@@ -39,7 +39,7 @@ function App() {
                         <Route path="/signup">
                             <SignUp />
                         </Route>
-                        <Route path="/showmethemoney">
+                        <Route path="/meinespenden">
                             <DonationOverview />
                         </Route>
                     </Switch>
